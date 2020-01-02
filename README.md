@@ -1,9 +1,12 @@
-# lisp-parser
-Initial implementation of Lisp (Scheme) interpreter.
-Only REPL is done so far. 
+# Scheme Interpreter
 
-Done: define, lambdas, quotes, unquotes, quasiquotes, conditionals, let, some primitive functions, error handling, basic macros (define-syntax-rule).
-ToDo: more error finding?
+REPL of Scheme (Lisp dialect) language.
+
+Run with: 
+`stack build`
+`stack run`
+
+Done: defines, lambdas, quotes, unquotes, quasiquotes, conditionals, let, some primitive functions, error handling, basic macros (define-syntax-rule).
 
 # Examples:
 
